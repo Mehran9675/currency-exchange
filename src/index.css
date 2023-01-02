@@ -1,0 +1,47 @@
+:root {
+  font-family: Roboto, sans-serif;
+  text-rendering: optimizeLegibility;
+  color: var(--default-text-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --default-text-color: #404040;
+  --table-header-text-color: #8d8d8d;
+  --warn-color: #c70d38;
+  --accent-color: #94c720;
+  --primary-color: #009688;
+
+  --page-title-size: 3rem;
+  --section-title-size: 1.5rem;
+  --body-text-size: 1rem;
+
+  --box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.3);
+
+  --container-width: 85.375rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f3f3f3;
+}
+
+main {
+  margin: 0 auto;
+  padding: 2rem 0.65rem;
+  min-height: 100vh;
+  max-width: var(--container-width);
+}
+
+h2 {
+  font-size: var(--page-title-size);
+  color: var(--default-text-color);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: black;
+    background-color: #ffffff;
+  }
+}

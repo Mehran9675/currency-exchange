@@ -1,0 +1,19 @@
+.history-table {
+  background-color: white;
+  box-shadow: var(--box-shadow);
+}
+
+.history-table-actions span {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.history-table-actions svg {
+  margin: 0 0.5rem;
+}
+.history-table-actions span[aria-label="view-item"] {
+  color: var(--primary-color);
+}
+.history-table-actions span[aria-label="delete-item"] {
+  color: var(--warn-color);
+}

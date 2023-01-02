@@ -1,0 +1,23 @@
+.exchange-history-container header h3 {
+  font-size: var(--section-title-size);
+}
+.exchange-history-container header section {
+  display: flex;
+}
+.exchange-history-container > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.exchange-history-container > div > * {
+  background-color: white;
+  box-shadow: var(--box-shadow);
+  height: fit-content;
+  max-width: 670px;
+}
+.exchange-history-container > div > canvas {
+  width: 100%;
+  object-fit: contain;
+}
